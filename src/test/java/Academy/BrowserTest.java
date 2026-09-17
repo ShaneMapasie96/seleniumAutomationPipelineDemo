@@ -19,7 +19,7 @@ public class BrowserTest {
         WebDriver driver = new ChromeDriver();
 
         try {
-            driver.get("https://shanemapasie-h5b4b2gcfxbzf5gu.southafricanorth-01.azurewebsites.net/webapp/");
+            driver.get("https://qademo-fafuacg8ecdnbcbb.westus3-01.azurewebsites.net/webapp/");
 
             String text = driver.findElement(By.cssSelector("h1")).getText();
 
